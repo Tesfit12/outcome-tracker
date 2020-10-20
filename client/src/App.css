@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.App {
+  text-align: center;
+  /* background-image: url('/pic.jpg'); */
+  background-color: rgba(238, 105, 17, 0.943);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* position: relative; */
+}
+
+
+
+.insideApp {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+
+}
+
+
+
+.registerLoginForm {
+  background-color: rgba(5, 139, 180, 0.336);
+  border-radius: 5%;
+  padding: 28px;
+  margin-top: 7%;
+  position: absolute;
+  width: 35%;
+  left: 35%;
+
+}
+
+
+.formAdder{
+  /* background: rgba(18, 212, 199, 0.756); */
+  transform: scale(1.05);
+  display: flex;
+  /* justify-content: center; */
+  width: 50%;
+}
+
+
+
+.item {
+  background-color: rgb(100, 184, 201);
+  /* border: 1px solid #e0e0e0; */
+  display: flex;
+  justify-content: space-between;
+  transition: all 1.5s linear;
+}
+.item td{
+  padding: 13px;
+}
+
+.item:hover {
+  box-shadow: 0 5px 5px #777979, 0 5px 5px rgba(201, 7, 7, 0.22);
+  transform: scale(1);
+  /* background-color: rgba(25 5, 255, 255, 0.801); */
+}
+
+
+.DatePickers{
+  position: relative;
+  left: -25.5%;
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+
+.covid-19{
+  /* background-color: aliceblue; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.covid-19 .spanGlobally{
+  /* border: 2px dashed red; */
+  font-size: 13px;
+  margin: 3px;
+  box-shadow: 2px 3px 3px 2px white;
+  color: white;
+  padding: 10px;
+  font-family: serif;
+}
+
+
+
+
+ .chartContainer{
+  background-color: rgba(245, 222, 179, 0.438);
+  width: 70%;
+  margin: auto;
+}
+
+
+/* * if you want to have your background  */
+
+
+
+/* ========================================================================= MEDIA QUERY ====================================================================*/
+/* ========================================================================= MEDIA QUERY ====================================================================*/
+
+
+
+@media only screen and (max-width: 375px ) {
+
+
+  .registerLoginForm{
+    width: 70%;
+    left: 15%;
+    margin-top: 25%;
+  }
+
+  .App{
+    height: 100vh;
+    width: 100%;
+  }
+
+
+  .particles_js{
+    height: 20%;
+  }
+  
+
+
+  .insideApp{
+    width: 100%;
+  }
+
+
+
+  .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .covid-19{
+    width: 90%;
+  }
+
+
+
+.formAdder{
+  /* background: rgba(18, 212, 199, 0.756); */
+  transform: scale(1.05);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.singleExpense{
+  background-color: red !important;
+  font-size: 12px;
+}
+
+
+
+.chartContainer{
+  background-color: rgba(201, 245, 179, 0.438);
+  width: 100%;
+  height: 300px;
+  margin-left: 4px;
+  margin-top: 36%;
+}
+
+
+
+}
+
+
+
+
